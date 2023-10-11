@@ -15,5 +15,5 @@ keypoints_with_size = np.copy(img)
 cv2.drawKeypoints(img, keypoints, keypoints_with_size, color = (255,0,0),flags = cv2.DrawMatchesFlags_DRAW_RICH_KEYPOINTS)
 flags = cv2.imshow(keypoints_with_size),
 
-plt.imshow(keypoints_with_size),
+plt.imshow()
 plt.show()

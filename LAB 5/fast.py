@@ -1,9 +1,9 @@
 import cv2 as cv
-from matplotlib import pyplot as plt
+
 img = cv.imread('resource/chess.jpg', cv.IMREAD_GRAYSCALE)
-# Initiate FAST object with default values
+
 fast = cv.FastFeatureDetector_create()
-# find and draw the keypoints
+
 kp = fast.detect(img,None)
 img2 = cv.drawKeypoints(img, kp, None, color=(255,0,0))
 # Print all default params

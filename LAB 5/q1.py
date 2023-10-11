@@ -8,7 +8,7 @@ import numpy as np
 
 # path to input image specified and
 # image is loaded with imread command
-image = cv2.imread('resource/chess.jpg')
+image = cv2.imread('resource/,.jpg')
 image = cv2.resize(image, None, fx = 0.5, fy = 0.5)
 
 
